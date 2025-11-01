@@ -1,0 +1,36 @@
+{
+    "models_dir": "models",
+    "data_path": "cleaned_data.csv",
+    "backup_dir": "models/backups",
+    "retrain_frequency_days": 30,
+    "min_samples_required": 1000,
+    "performance_threshold": 0.75,
+    "drift_threshold": 0.3,
+    "alert_email": "tu_email@example.com",
+    "auto_deploy": false,
+    "notification_settings": {
+        "send_on_success": true,
+        "send_on_failure": true,
+        "send_on_drift": true
+    },
+    "model_validation": {
+        "min_auc": 0.70,
+        "max_degradation_pct": 2.0,
+        "require_better_than_baseline": false
+    },
+    "drift_detection": {
+        "enabled": true,
+        "alpha": 0.05,
+        "features_to_monitor": [
+            "Age",
+            "CreditScore",
+            "Balance",
+            "Geography",
+            "Gender",
+            "NumOfProducts",
+            "IsActiveMember",
+            "Complain",
+            "Monthly_Transactions"
+        ]
+    }
+}

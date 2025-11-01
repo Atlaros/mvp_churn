@@ -1,0 +1,166 @@
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================
+# ENTORNOS VIRTUALES
+# ============================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ============================================
+# JUPYTER NOTEBOOK
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+!notebooks/EDA_Churn_Analysis.ipynb  # Mantener notebook de ejemplo
+!notebooks/Model_Experimentation.ipynb  # Mantener notebook de experimentación
+!notebooks/Results_Visualization.ipynb  # Mantener notebook de visualización
+
+# ============================================
+# MODELOS Y DATOS
+# ============================================
+# Modelos entrenados (archivos grandes)
+models/*.pkl
+models/*.h5
+models/*.json
+models/*.csv
+!models/.gitkeep
+
+# Datos (archivos grandes y sensibles)
+*.csv
+!data/.gitkeep
+data/*
+!data/README.md
+!data/.gitkeep
+
+# ============================================
+# LOGS
+# ============================================
+logs/
+*.log
+!logs/README.md
+!logs/.gitkeep
+
+# ============================================
+# VARIABLES DE ENTORNO
+# ============================================
+.env
+.env.local
+.env.*.local
+.flaskenv
+
+# ============================================
+# IDE Y EDITORES
+# ============================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# SISTEMA OPERATIVO
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================
+# DOCKER
+# ============================================
+*.tar
+docker-compose.override.yml
+
+# ============================================
+# TESTING
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# ============================================
+# DOCUMENTACIÓN
+# ============================================
+docs/_build/
+site/
+
+# ============================================
+# OTROS
+# ============================================
+*.bak
+*.tmp
+*.temp
+.cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Archivos de configuración local
+config.local.toml
+secrets.toml

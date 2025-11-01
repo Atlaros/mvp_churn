@@ -1,0 +1,19 @@
+CreditScore
+Geography
+Gender
+Age
+Balance
+NumOfProducts
+HasCrCard
+IsActiveMember
+EstimatedSalary
+Complain
+Satisfaction Score
+Card Type
+Point Earned
+Days_Since_Last_Transaction
+Monthly_Logins
+Avg_Session_Duration
+Support_Interactions
+Session_Abandonment_Rate
+Local_Competition_Index

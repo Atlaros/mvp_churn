@@ -1,0 +1,75 @@
+# Configuración de Streamlit
+# Coloca este archivo en: .streamlit/config.toml
+
+[theme]
+# Color primario (azul corporativo)
+primaryColor = "#0066cc"
+
+# Color de fondo
+backgroundColor = "#ffffff"
+
+# Color de fondo secundario
+secondaryBackgroundColor = "#f0f2f6"
+
+# Color de texto
+textColor = "#262730"
+
+# Fuente
+font = "sans serif"
+
+[server]
+# Puerto por defecto
+port = 8501
+
+# Dirección
+address = "0.0.0.0"
+
+# Habilitar CORS
+enableCORS = false
+
+# Habilitar XSS protection
+enableXsrfProtection = true
+
+# Tamaño máximo de upload (MB)
+maxUploadSize = 200
+
+# Habilitar websocket compression
+enableWebsocketCompression = true
+
+[browser]
+# Auto-abrir navegador
+gatherUsageStats = false
+
+# Server address (para producción)
+serverAddress = "localhost"
+
+# Server port
+serverPort = 8501
+
+[runner]
+# Modo de ejecución más rápido
+magicEnabled = true
+
+# Instalar paquetes automáticamente
+installTracer = false
+
+# Fix para problemas de matplotlib
+fixMatplotlib = true
+
+[logger]
+# Nivel de logging
+level = "info"
+
+# Formato de mensaje
+messageFormat = "%(asctime)s %(levelname)s: %(message)s"
+
+[client]
+# Mostrar error details
+showErrorDetails = true
+
+# Toolbar mode
+toolbarMode = "minimal"
+
+[deprecation]
+# Mostrar warnings
+showPyplotGlobalUse = false
